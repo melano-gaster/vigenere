@@ -44,10 +44,6 @@ else:
 	sys.exit(0)
 
 db = [dict() for i in range(key_length)]
-#print(db)
-test = "XRIPH RRGIA QZQLH MBEMX XMYYM CKPJR XNMRH YXRIP"
-
-print(cfile)
 test = ''.join(cfile)
 test = test.replace(' ', '')
 test = test.replace('\n' , '')
